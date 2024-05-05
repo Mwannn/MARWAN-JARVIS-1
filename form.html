@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up Form</title>
+</head>
+<body>
+  <form action="welcome.html" method="post">
+    <h2>Buat Account Baru!</h2>
+    <p>Sign Up Form</p>
+    <p>
+      <label>First Name:</label>
+      <input type="text" name="first_name" />
+    </p>
+    <p>
+      <label>Last Name:</label>
+      <input type="text" name="last_name" />
+    </p>
+    <p>
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="male" /> Male
+      <input type="radio" name="gender" value="female" /> Female
+      <input type="radio" name="gender" value="other" /> Other
+    </p>
+    <p>
+      <label>Nationality:</label>
+      <select name="nationality">
+        <option value="indonesian">Indonesian</option>
+        <option value="indonesian">Belanda</option>
+        <option value="indonesian">Inggris</option>
+        <option value="indonesian">Rusia</option>
+        <!-- add more options here -->
+      </select>
+    </p>
+    <p>
+      <label>Language Spoken:</label>
+      <input type="checkbox" name="language[]" value="bike" /> I have a bike
+      <input type="checkbox" name="language[]" value="car" /> I have a car
+      <input type="checkbox" name="language[]" value="boat" /> I have a boat
+    </p>
+    <p>
+      <label>Bio:</label>
+      <textarea name="bio" rows="5" cols="50"></textarea>
+    </p>
+    <p>
+      <input type="submit" value="Sign Up" />
+    </p>
+    <body>
+        <h1>SELAMAT DATANG!</h1>
+        <p>Terima kasih telah bergabung di SanberBook. Social Media kita bersama!</p>
+    </body>
+  </form>
+</body>
+</html>
